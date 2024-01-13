@@ -1,0 +1,60 @@
+
+body{
+    padding: 80px;
+    background-image: url(./images/pexels-evie-shaffer-4004374.jpg);
+    font-weight: 900;
+}
+.submit{
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgb(120, 115, 115);
+    padding: 20px;
+}
+.login-area{
+    display: block;
+    color: white;
+}
+.transaction-area{
+    display: none;
+    color: white;
+}
+.transaction-area h1{
+    margin-bottom: 30px;
+    text-align: center;
+}
+.deposit-output-area,
+.withdraw-output-area,
+.balance-output-area{
+    box-shadow: 5px 5px 15px 5px rgb(138, 123, 123);
+}
+.deposit-output-area, .withdraw-output-area, .balance-output-area{
+    padding: 20px;
+    color: white;
+    border-radius: 7px;
+}
+.all-input{
+    margin-top: 50px;
+}
+.deposit-input-area, .withdraw-input-area{
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px 5px rgb(136, 109, 109);
+}
+.deposit-input-area:hover, .withdraw-input-area:hover{
+    transform: scale3d(0.98, 1.02, 0.3);
+    transition: 0.3s;
+}
+.inside-deposit-input, .inside-withdraw-input{
+    padding: 10px;
+    margin: 30px;
+}
+.inside-deposit-input h4, .inside-deposit-input input, .inside-withdraw-input h4, .inside-withdraw-input input{
+    margin-bottom: 10px;
+}
+#enter-button, .depositButton, .withdrawButton{
+    background-color: rgb(38, 35, 35);
+}
+#enter-button:hover, .depositButton:hover, .withdrawButton:hover{
+    background-color: rgb(7, 7, 6);
+    transform: scale3d(1.02, 1.00, 0.3);
+    transition: 0.3s;
+}
